@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100%; 
+  font-family: "Poppins", sans-serif;
+  background-color: #2a9d8f; 
+}
+
+h2 {
+    margin-top: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.header__navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    background-color: #83c5be;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__navigation a {
+    text-align: center;
+}
+
+.header__navigation a {
+    display: inline-block;
+    padding: 8px 0;
+}
+
+.container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 15%);
+    grid-template-areas: 
+    "container_block1" "container_block2" "container_block3" 
+    "container_block1" "container_block2" "container_block3"
+    "container_block1" "container_block2" "container_block3"  
+    ;
+}
+
+.container_block1 {
+    display: grid;
+    grid-area: "container_block1";
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.container_block1 p {
+    text-align: center;
+}
+
+.container_block2 {
+    display: grid;
+    grid-area: "container_block2";
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    background-color: #2a9d8f;
+}
+
+.container_block2 p {
+    text-align: center;
+}
+
+.container_block3 {
+    display: grid;
+    grid-area: "container_block3";
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    background-color: #2a9d8f;
+}
+
+.container_block3 p {
+    text-align: center;
+}
