@@ -27,15 +27,15 @@ body {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
     background-color: whitesmoke;
     /* opacity: 0.8; */
-  }
-  
-  .navbar__link:link,
-  .navbar__link:active {
+}
+
+.navbar__link:link,
+.navbar__link:active {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
     color: #3d405b;
-  }  
+}
 
 .about {
     margin-top: 10rem;
