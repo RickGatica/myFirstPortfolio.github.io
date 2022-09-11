@@ -61,7 +61,6 @@ body {
     margin-inline-end: 0px;
 }
 
-
 .about__me::after {
     content: "";
     display: block;
