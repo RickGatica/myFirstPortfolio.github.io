@@ -48,7 +48,7 @@ body {
   text-align: center;
   flex-direction: column;
   padding: 0 8rem;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .row-1 {
