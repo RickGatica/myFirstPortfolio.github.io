@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "c:\\Projects\\myPortfolio\\index.html"
+  // "livePreview.defaultPreviewPath": "c:\\Projects\\myPortfolio\\index.html",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
