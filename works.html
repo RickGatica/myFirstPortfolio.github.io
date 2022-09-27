@@ -4,32 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles/works.css" />
+    <title>My Works</title>
   </head>
+
   <body>
     <!-- Header -->
-    <header class="header">
-      <nav class="header__navigation">
-        <a href="/index.html" target="_blank">Home</a>
-        <a href="/about-me.html">About me</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-      <div class="header__social-icons">
-        <a target="_blank" href="https://github.com/RickGatica"
-          ><i class="fa fa-github"></i
-        ></a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/ricardo-andr%C3%A9s-gatica-collarte-46b4291aa/"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-      </div>
-    </header>
+    <nav class="navbar">
+      <a class="navbar__link" href="/index.html">
+        <i class="fa-solid fa-house-user"></i>
+      </a>
+
+      <a class="navbar__link" href="/about-me.html">
+        <i class="fa-solid fa-gamepad"></i>
+      </a>
+
+      <a class="navbar__link" href="/contact.html">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </nav>
     <!-- End of the header -->
 
     <!-- Works Section -->
     <section class="works">
       <h2>My recent works</h2>
+      <div class="container">
+        <div class="container_block1">
+          <a
+            class="container_block1_item-preview"
+            href="https://github.com/RickGatica/MarvelEternals"
+          >
+            <img width="300px" src="/images/marvel-eternals.png" alt="" />
+            <p>Marvel Eternals</p>
+          </a>
+        </div>
+        <div class="container_block2">
+          <a
+            class="container_block2_item-preview"
+            href="https://github.com/RickGatica/Formulario_Vegeta"
+          >
+            <img width="300px" src="/images/formulario-vegeta.png" alt="" />
+            <p>Formulario Vegeta</p>
+          </a>
+        </div>
+        <div class="container_block3">
+          <a
+            class="container_block3_item-preview"
+            href="https://github.com/RickGatica/css_grid"
+          >
+            <img width="300px" src="/images/css-grid.png" alt="" />
+            <p>CSS GRID</p>
+          </a>
+        </div>
+      </div>
     </section>
     <!-- End of Works Section -->
   </body>
